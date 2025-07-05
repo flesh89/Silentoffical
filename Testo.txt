@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Silent - Progetto Musicale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: #eee;
+            margin: 0; padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+        }
+        header {
+            background: #1f1f1f;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #00aaff;
+        }
+        main {
+            max-width: 900px;
+            padding: 20px;
+            width: 100%;
+        }
+        iframe {
+            width: 100%;
+            max-width: 900px;
+            height: 506px; /* 16:9 aspect ratio */
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .social-links a {
+            margin: 0 15px;
+            color: #00aaff;
+            text-decoration: none;
+            font-size: 1.4rem;
+        }
+        footer {
+            margin-top: auto;
+            background: #1f1f1f;
+            width: 100%;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>Silent - Progetto Musicale</header>
+    <main>
+        <iframe src="https://www.youtube.com/embed/O-32JAmqpQE" allowfullscreen
+            title="Video promozionale di Silent"></iframe>
+        <p>Benvenuto nel progetto musicale di Silent. Qui puoi trovare i miei ultimi lavori e aggiornamenti.</p>
+        <div class="social-links">
+            <a href="https://instagram.com/silent" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://youtube.com/silent" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://soundcloud.com/silent" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+        </div>
+    </main>
+    <footer>© 2025 Silent. Tutti i diritti riservati.</footer>
+</body>
+</html>
